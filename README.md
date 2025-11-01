@@ -1,25 +1,26 @@
-VaultMind/
-│
-├── app.py
-│   → The main Streamlit application that runs the entire project.
-│     It handles user input, displays interactive visualizations,
-│     generates spending alerts, and uses the Gemini API to deliver
-│     personalized financial coaching.
-│
-├── transactions.csv
-│   → A synthetic dataset that stores all user transactions.
-│     This file automatically updates whenever a new transaction
-│     is added through the app.
-│
-├── requirements.txt
-│   → Lists all the Python dependencies required to run the project.
-│     You can install them easily using:
-│     pip install -r requirements.txt
-│
-├── .env
-│   → Stores the Gemini API key securely.
-│     This file is excluded from GitHub for privacy and security reasons.
-│
-└── README.md
-    → Contains complete project documentation, including
-      an overview, setup steps, and future improvements.
+# 💰 VaultMind – AI-Powered Spending Coach
+
+VaultMind is a smart, lightweight finance assistant built with **Streamlit** and **Google Gemini API**.  
+It helps users analyze their spending patterns, detect overspending, and receive AI-generated financial coaching — all on **synthetic data** (no privacy risk).
+
+---
+
+## 🚀 Overview
+
+VaultMind mimics a personal finance tracker.  
+You can add expenses manually (like using a wallet app), view instant visualizations, and get **real-time insights** from Gemini AI.  
+The app is designed as a **demo-friendly AI project** — safe to show in interviews, hackathons, or portfolio presentations.
+
+---
+
+## 🧩 Features
+
+- 🧠 **AI Coaching** – Gemini gives personalized advice on spending patterns.  
+- 📊 **Dynamic Charts** – Real-time visualization of monthly and category-wise spending.  
+- 💬 **Manual Transaction Entry** – Works without connecting to real payment systems.  
+- ⚠️ **Smart Alerts** – Detects unusual or high spending behavior automatically.  
+- 🔒 **Privacy Safe** – Runs entirely on local data (`transactions.csv`).
+
+---
+Run the app:
+streamlit run app.py
